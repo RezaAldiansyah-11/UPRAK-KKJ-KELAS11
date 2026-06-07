@@ -1,0 +1,16 @@
+:root {
+  --bgMain: #ffffff;
+  --bgSecondary: #fff2cc;
+  --pcolor: #ff5722;
+  --text: #333333;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: poppins;
+}
+
+body {
+  background-color: var(--bgMain);
+}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+        
+            <defs>
+                <clipPath id="clip-shape">
+                    <rect width="100%" height="100%" rx="256" ry="256" />
+                </clipPath>
+            </defs>
+        
+		<defs>
+			
+		</defs>
+        <g clip-path="url(#clip-shape)">
+            <rect width="100%" height="100%" fill="#ef4444" />
+			
+            <g transform="translate(256, 256) scale(11.666666666666666) rotate(0) translate(-12, -12)" opacity="0.8" >
+					<title xmlns="" fill="#ffffff">lucide:smile</title>
+<g xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><circle cx="12" cy="12" r="10" fill="#ffffff"/><path d="M8 14s1.5 2 4 2s4-2 4-2M9 9h.01M15 9h.01" fill="#ffffff"/></g>
+				</g>
+        </g>
+    </svg>

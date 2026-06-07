@@ -1,0 +1,99 @@
+.navbarContainer {
+  display: flex;
+  align-items: center;
+  background-color: var(--bgMain);
+  border-bottom: 1px rgba(65, 65, 65, 0.26) solid;
+}
+
+.navbarContainer .searchBar {
+  border: 2px solid rgba(156, 156, 156, 0.1);
+  background-color: var(--bgSecondary);
+  display: flex;
+  margin: 0 auto;
+  padding: 5px 8px;
+  border-radius: 30px;
+  align-items: center;
+  color: var(--text);
+  font-weight: 550;
+}
+
+.navbarContainer .searchBar input {
+  background-color: var(--bgSecondary);
+  padding: 10px 5rem 10px 100px;
+  border: none;
+  transition: all 0.4s ease;
+}
+
+.navbarContainer .searchBar input:focus {
+  display: flex;
+  justify-content: left;
+  border-color: var(--pcolor);
+  outline: none;
+  padding: 10px 4rem 10px 10px;
+}
+
+.navbarContainer a {
+  text-decoration: none;
+  color: var(--pcolor);
+  font-size: larger;
+  font-weight: 550;
+  margin: 1rem;
+}
+
+.navbarContainer a:hover {
+  cursor: pointer;
+}
+
+.navbarContainer button {
+  cursor: pointer;
+  font-weight: 600;
+  border: none;
+  color: var(--text);
+  margin: 1rem;
+  background-color: var(--pcolor);
+  padding: 8px 16px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.navbarContainer button:hover {
+  color: var(--bgSecondary);
+  padding: 8px 20px;
+}
+
+.aboutMeContainer {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  border: 1px solid rgba(124, 124, 124, 0.274);
+  background-color: var(--bgSecondary);
+  border-radius: 30px;
+  padding: 2rem 4rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+}
+
+.aboutMeContainer .aboutMeBox h2,
+p {
+  color: var(--text);
+}
+
+.aboutMeContent .center {
+  display: flex;
+  justify-content: center;
+  margin: 1rem 0 0 0;
+}
+
+.aboutMeContent .center button {
+  color: var(--text);
+  padding: 10px 30px;
+  border: 1px solid rgba(124, 124, 124, 0.274);
+  transition: all 0.3s ease;
+}
+
+.aboutMeContent .center button:hover {
+  color: var(--bgSecondary);
+  padding: 10px 36px;
+}

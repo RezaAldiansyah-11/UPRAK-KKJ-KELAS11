@@ -1,0 +1,81 @@
+.userCardContainer {
+  color: var(--text);
+  margin: 0 auto 3em auto;
+  max-width: 1400px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: flex-start;
+  min-height: 90vh;
+}
+
+.userCardContainer h2 {
+  width: 100%;
+  margin: 1rem 0 0 0;
+  display: flex;
+  font-size: medium;
+  justify-content: center;
+}
+
+.userCardContainer .userCardBox {
+  max-width: 450px;
+  width: calc(50% - 20px);
+  background-color: var(--bgSecondary);
+  border: 2px solid rgba(156, 156, 156, 0.1);
+  border-radius: 8px;
+  padding: 3rem 0;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.userCardContainer .userCardBox:hover {
+  border: 2px solid var(--pcolor);
+}
+
+.userCardContainer .userCardBox h3 {
+  margin-top: 1rem;
+}
+
+.vote {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+}
+
+.vote button {
+  padding: 4px 16px;
+  border: none;
+  background-color: var(--pcolor);
+  color: var(--text);
+  font-weight: 550;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.vote button:hover {
+  color: var(--bgSecondary);
+}
+
+.vote .button {
+  display: flex;
+  justify-content: center;
+}
+
+.voteContent {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: rgba(0, 0, 0, 0.185);
+  transition: all 0.2s ease;
+  margin: 0.5rem 0;
+  gap: 8px;
+}
+
+.voteContent:hover {
+  background-color: rgba(0, 0, 0, 0.315);
+}
